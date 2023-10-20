@@ -1,0 +1,110 @@
+body {
+    background: url("Imagens/universo.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    background: white; 
+    padding: 10px 0px;
+    margin-bottom: 100px;
+}
+
+/* MENU */
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    transition: all 0.5s;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: white;
+    box-shadow: 0px 1px 0px black;
+}
+
+/* FIM MENU */
+
+/* CAROUSEL */
+
+.carousel {
+    width: 35%;
+}
+
+@media (max-width: 1200px) {
+    .carousel {
+        width: 90%;
+    }
+}
+
+/* FIM CAROUSEL */
+
+/* ARTES CONCEITUAIS */
+
+    .titulo-sessao {
+        font-size: 50px; 
+        margin-top: 40px;
+        padding: 0px 20px;
+        font-family: impact;
+    }
+
+
+    .container-midia-geral {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .midia-geral {
+        padding: 0px 5px;
+        width: 10%;
+    }
+
+    @media (max-width: 576px) {
+        .midia-geral {
+            padding: 0px 0px;
+            width: 30%;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .midia-geral {
+            padding: 0px 0px;
+            width: 30%;
+        }
+    }
+/* FIM ARTES CONCEITUAIS */
+
+/* Social */
+
+.container-social {
+    background: black;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.copyright {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.social {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.img-social {
+    padding: 10px;
+    border-radius: 35%;
+}

@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: black;
+    padding: 10px;
+}
