@@ -24,15 +24,15 @@
 
                <!-- Email Address -->
                <div>
+                   <x-input-error :messages="$errors->get('email')" class="mt-2 alert alert-danger" />
                    <x-text-input id="email" class="form-control" type="email" name="email" :value="old('email')" placeholder="E-MAIL" required autofocus autocomplete="username" />
-                   <x-input-error :messages="$errors->get('email')" class="mt-2" style="color:red; font-weight: 600;" />
                </div>
 
                <!-- Password -->
                <div class="mt-4">
                    <x-text-input id="senha" class="form-control" type="password" name="password" placeholder="Senha" required autocomplete="current-password" />
                    <button type="button" class="btn display" onclick="mostrarSenha()"><img src="{{ url('Assets/Imagens/olhinho-ohayo.png')}}" width="40"></button> 
-                   <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                   <x-input-error :messages="$errors->get('password')" class="mt-2 alert alert-warning" />
                </div>
 
                <!-- Remember Me -->
