@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
 </head>
 <body>
 <section>
+    <header style="margin-bottom: 50px;">
+        <x-primary-button type="button" value="Voltar" onclick="JavaScript: window.history.back();" id="a-2">Voltar</x-primary-button>
+        <x-primary-button><a class="dropdown-item" href="{{ route('logout')}}" style="color: red; font-weight: 600;">Logout</a></x-primary-button>
+    </header>
+    
     <header>
         <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">
             {{ __('Informação do Perfil') }}

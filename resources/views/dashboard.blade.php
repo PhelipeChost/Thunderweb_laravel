@@ -34,6 +34,7 @@
                 </nav>
 
             <!-- FIM Menu -->
+            <!-- Perfil ou Deslog -->
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#" style="padding: 0px 20px; font-weight: 700;">{{ auth()->user()->name }}</a>
@@ -55,25 +56,8 @@
                         </div>
                     </div>
                 </nav>
-            <!-- Criar conta ou logar -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <img src="{{ url('Assets/Imagens/seta-baixo.png') }}" width="12"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <!-- <li><hr class="dropdown-divider"></li> -->
-                                    <li><a class="dropdown-item" href="logout.php" style="color: red; font-weight: 700;">Encerrar Sessão</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- FIM Logout -->
+            <!-- Perfil ou deslog -->
+
             <main class="body-background" style="background-image: url('Assets/Imagens/45-3.png');
                                                 background-repeat: no-repeat;
                                                 background-size: cover;">
@@ -82,12 +66,10 @@
                         <img src="{{ url('Assets/Imagens/Thunder-title.png') }}" class="img-fluid" width="1000">
                         <img src="{{ url('Assets/Imagens/Thunder-subtitle.png') }}" class="img-fluid sub-title-img" width="500">
                     </div>
+                </div>
 
-            </div>
-
-            <!-- Social -->
+                <!-- Social -->
                 <div class="container-fluid container-social">
-
                     <p class="col copyright">Copyight Jvellucy by</p>
                     <p class="col copyright" id="copyright">© 2020 - 2024 thunderweb.com.br</p>
 
@@ -96,11 +78,8 @@
                         <a href="https://twitter.com/ThunderWeb1" target="_blank"><img src="{{ url('Assets/Imagens/twitter.png') }}" class="img-fluid img-social"></a>
                         <a href="https://www.instagram.com/thunderweb_/" target="_blank"><img src="{{ url('Assets/Imagens/instagram.png') }}" class="img-fluid img-social"></a>
                     </div>
-
                 </div>
-
-            <!-- FIM Social -->  
-
+                <!-- FIM Social -->  
             </main>
 
             <!-- Exposição -->

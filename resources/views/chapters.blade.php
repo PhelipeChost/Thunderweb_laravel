@@ -70,28 +70,28 @@
                 </nav>
 
             <!-- FIM Menu -->
-            <!-- Logout -->
+            <!-- Perfil ou Deslog -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <img src="Imagens/seta-baixo.png" width="12">
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Opções
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <!-- <li><hr class="dropdown-divider"></li> -->
-                                        <li><a class="dropdown-item" href="logout.php" style="color: red; font-weight: 700;">Encerrar Sessão</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="{{ url('Assets/Imagens/login-icone.png')}}" width="30">
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <!-- <li><hr class="dropdown-divider"></li> -->
+                                    <li><a class="dropdown-item" href="{{ route('logout')}}" style="color: red; font-weight: 600">Logout</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('profile.edit')}}" style="color: red; font-weight: 600">Profile</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            <!-- FIM Logout -->
+                </div>
+            </nav>
+            <!-- Perfil ou deslog -->
             <!-- Exposição -->
 
             <center><h1 style="font-size: 40px; margin-top: 40px; font-family: impact;">CAPÍTULOS</h1></center>
