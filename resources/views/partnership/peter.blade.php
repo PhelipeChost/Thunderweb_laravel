@@ -37,12 +37,6 @@
 
         /* MENU */
 
-        .container {
-        box-shadow: 0px 0px 1px white;
-        width: 1000px;
-        margin-top: 20px;
-        padding: 20px; 
-        }
 
         li {
 
@@ -61,7 +55,7 @@
 
         /* FIM MENU */
 
-            .col-md-5 {
+            .container {
                 font-size: 20px;
                 margin-left: auto;
                 margin-right: auto;
@@ -115,14 +109,15 @@
         <center>
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
-                    <li type="button" value="Voltar" onClick="JavaScript: window.history.back();" id="a-2">Voltar</li>
+                    <a class="navbar-brand" href="#" style="padding: 0px 20px; font-weight: 700; color: white; text-decoration: none">{{ auth()->user()->name }}</a>
+                    <a type="button" value="Voltar" onClick="JavaScript: window.history.back();" id="a-2">Voltar</a>
                 </div>
             </div>
         </center>
         
         <!-- texto -->
         
-        <div class="col-md-5" style="padding: 10px; text-align: justify;">
+        <div class="container" style="padding: 10px; text-align: justify;">
             <p>2.3 &ndash; <em>Peter acordou envolvido por jornais velhos, num espa&ccedil;o entre dois pr&eacute;dios com sa&iacute;da para os dois lados e ambos fechados por madeiras. A penumbra tomava o lugar e &agrave; frente um cont&ecirc;iner mostrava-se evidente pelo contorno da sombra, assim como o entulho de restos de constru&ccedil;&atilde;o e lixo atr&aacute;s de si, o qual a luz atingia-o somente na parte de cima. O sil&ecirc;ncio causava receio e ele precisava sair daquele lugar o quanto antes. Para al&eacute;m do obst&aacute;culo de madeira impedindo a passagem do beco &agrave; rua, pr&eacute;dios germinados detinham uma caracter&iacute;stica predominante de alvenaria exposta em tijolos laminados desgastados pelo tempo, bem como o candeeiro iluminando a rua intensificava a vontade para estar sob a luz. Levantou-se e ajeitava a roupa quando subitamente pequenas latas vazias rolaram do entulho ao ch&atilde;o, saindo por detr&aacute;s do entulho. Ele reagiu ao barulho virando-se rapidamente para ver o que era, e ao mesmo tempo uma onda de medo aflorou na pele. Por alguns segundos ficou esperando.</em></p>
             <p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &mdash; Algu&eacute;m a&iacute;? — Ele se esfor&ccedil;ava para ver, mas n&atilde;o conseguia.</em></p>
             <p><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; O sil&ecirc;ncio imperou novamente. Por segundos ficou reflexivo e resolveu caminhar em dire&ccedil;&atilde;o a sa&iacute;da. O som de latas tilintando no ch&atilde;o fizeram-no olhar para tr&aacute;s, apertou os passos ap&oacute;s visualizar um vulto remexer-se nas sombras ao lado do entulho. A medida em que avan&ccedil;ava, as latas agora pareciam ser deslocada no ch&atilde;o por um movimento brusco. Caminhava r&aacute;pido e olhava para tr&aacute;s para ver se n&atilde;o estava sendo seguido, observou aquela sombra ficar de p&eacute;. Quando chegou &agrave; frente da parede de madeira separando o ambiente escuro &agrave; rua, voltou a olhar certificando que se fosse algu&eacute;m perigoso n&atilde;o teria tempo para alcan&ccedil;&aacute;-lo. Os contornos da figura envolvida nas sombras passava a sensa&ccedil;&atilde;o agora de ser uma mulher. E mesmo que fosse? Ele n&atilde;o tinha o menor desejo de comprovar. Quando o vulto come&ccedil;ou a dar passos adiante, Peter sem destreza pulou para fora e caiu estatelado na cal&ccedil;ada. Levantou-se sentindo dor no tornozelo e por meros segundos a dor n&atilde;o o deixava firmar o p&eacute; no ch&atilde;o. Olhou para os dois lados da rua pensando numa corrida, mas p&ocirc;s as m&atilde;os nos bolsos da blusa e apenas acelerou os passos indo &agrave; dire&ccedil;&atilde;o do viaduto. Estando alguns metros distante daquela divis&oacute;ria ouviu o rangido da madeira mediante ao choque de colis&atilde;o. Aquilo envolto pelas sombras desejava ganhar a rua tamb&eacute;m. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Peter olhou para cima e dava pulos tentando alcan&ccedil;ar a escada de acesso ziguezagueando at&eacute; ao quinto andar do pr&eacute;dio, pareceu uma boa op&ccedil;&atilde;o para fugir, mas n&atilde;o obteve &ecirc;xito. Do outro lado da rua al&eacute;m da parede enorme de tijolos laminados, grandes port&otilde;es frustravam-lhe a inten&ccedil;&atilde;o de adentrar em algum lugar procurando prote&ccedil;&atilde;o. Conforme avan&ccedil;ava, chacoalhava as portas de vidros dos estabelecimentos procurando a improv&aacute;vel eventualidade de uma estar aberta. Quando chegou ao entrocamento das ruas, pensava nas possibilidades. &Agrave; frente havia uma cerca de madeira impedido o acesso para debaixo dos viadutos, assim como a reforma estendia-se para uma parte do cruzamento. &Agrave; esquerda, um acesso do viaduto descia &agrave; rua pela qual ele se encontrava e o outro seguia metros acima. Por um momento tentou reagir contra a in&eacute;rcia da d&uacute;vida, quais dos rumos para seguir. Ap&oacute;s a divis&oacute;ria de madeira vir ao ch&atilde;o por um golpe violento, Peter resolveu seguir &agrave; direita indo de encontro a uma viatura policial fazendo ronda e acabara de ingressar na rua. O carro passava devagar e um deles lhe observou o ato furtivo.</em></p>

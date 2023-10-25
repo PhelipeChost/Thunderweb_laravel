@@ -27,6 +27,7 @@ Route::get('/parcerias', [App\Http\Controllers\ParceriasController::class, 'parc
 Route::get('/capitulos', [App\Http\Controllers\ChaptersController::class, 'Chapters']);
 
 Route::get('/chapter{number}', [App\Http\Controllers\ChaptersallController::class, 'Chaptersall'])->where('number', '[0-9]{1,2}');
+Route::get('/Peter-Enigma-dos-Senhos', [App\Http\Controllers\PartnershipallController::class, 'Peter']);
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

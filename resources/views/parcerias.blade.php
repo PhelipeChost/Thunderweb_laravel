@@ -58,7 +58,7 @@
             <!-- Exposição -->
                 <div class="col-md" style="padding: 10px">
                         <div class="col-md-7 list-group">
-                            <a href="{{ url('Peter')}}" class="list-group-item list-group-item-action">
+                            <a href="{{ url('Peter-Enigma-dos-Senhos')}}" class="list-group-item list-group-item-action">
                                 <div class="d-flex w-100 justify-content-between">
                                     <h5 class="mb-1">PETER: E O ENIGMA DOS SONHOS ( Página 71 )</h5>
                                     <small class="text-muted">E-book</small>
