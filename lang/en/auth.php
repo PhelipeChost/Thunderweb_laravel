@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'failed' => 'Incorrect credentials',
-    'password' => 'The password provided is incorrect.',
+    'failed' => 'Incorrect username or password',
+    'password' => 'The password incorrect.',
     'throttle' => 'Too many login attempts. Please try again at: seconds seconds.',
 
 ];
