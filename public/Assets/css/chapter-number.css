@@ -1,0 +1,126 @@
+/* BODY */
+
+body {
+    background: #2C2C2C
+}
+
+/* Usuario */
+
+.navbar navbar-dark bg-dark {
+    position: fixed;
+}
+
+#logout {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+    padding: 5px 0px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+#logout:hover {
+    box-shadow: 0px 1px 0px white;
+}
+
+/* Usuario */
+
+/* MENU */
+
+.container {
+    box-shadow: 0px 0px 1px white;
+    width: 1000px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 45px;
+}
+
+#a-2 {
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* FIM MENU */
+
+
+
+/* Páginas */
+
+.capa-geral {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 10%;
+}
+
+@media (max-width: 576px) {
+    .capa-geral {
+        width: 65%;
+    }
+}
+
+.publicidade {
+    background: black;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.paginas-manga {
+    width: 35%;
+}
+
+@media (max-width: 576px) {
+    .paginas-manga {
+        width: 90%;
+    }
+}
+
+.nos-conheca {
+    width: 40%;
+}
+
+@media (max-width: 576px) {
+    .nos-conheca {
+        width: 85%;
+    }
+}
+
+/* FIM Páginas */
+
+/* Social */
+
+#container-social {
+    background: black;
+    padding: 50px;
+    margin-top: 400px;
+}
+
+#copyright {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#social {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#img-social {
+    padding: 10px;
+    border-radius: 35%;
+}
