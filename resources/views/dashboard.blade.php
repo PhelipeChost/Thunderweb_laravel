@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
         <body>
-            
+
             <!-- Menu -->
                 <div id="Home"></div>
                 <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light" style="background: black;">
@@ -79,7 +79,7 @@
                         <a href="https://www.instagram.com/thunderweb_/" target="_blank"><img src="{{ url('Assets/Imagens/instagram.png') }}" class="img-fluid img-social"></a>
                     </div>
                 </div>
-                <!-- FIM Social -->  
+                <!-- FIM Social -->
             </main>
 
             <!-- Exposição -->
@@ -103,7 +103,7 @@
                         <img src="{{ url('Assets/Imagens/pixelThunder.png') }}" class="img-fluid" width="100">
                         <div class="container-fluid display-pixel">
                             <h2 class="nome-autor">Felipe Costa</h2>
-                            <p class="col-md">Responsável pela programação geral deste web site. Autor mangaká e desenhista responsavel 
+                            <p class="col-md">Responsável pela programação geral deste web site. Autor mangaká e desenhista responsavel
                             pela primeira edição do livro Thunder: Endless Civil War Desinformation</p>
                             <a href="https://www.linkedin.com/in/felipe-costa-20a12b262/" target="_blank">Conheça Felipe</a>
                         </div>
@@ -154,12 +154,10 @@
                         </div>
                     </div>
                 </div>
-            </main> 
+            </main>
             <!-- FIM Exposição -->
 
             <!-- Compras -->
-            
-            
             <div class="container-fluid" id="loja">
                     <div class="row container-display">
                         <div class="row container-comprar">
@@ -205,24 +203,7 @@
                         </div>
                     </div>
                 </div>
-            
-
-            <!-- Compras -->
-
-            <!-- Social -->
-            <div class="container-fluid container-social" style="margin-top: 50px; margin-bottom: 100px">
-
-                <p class="col copyright">Copyight Jvellucy by</p>
-                <p class="col copyright" id="copyright">© 2020 - 2024 thunderweb.com.br</p>
-
-                <div class="container-fluid social">
-                    <a href="https://www.youtube.com/@thunderweb3138" target="_blank"><img src="{{ url('Assets/Imagens/logo-youtube.png') }}" class="img-fluid img-social"></a>
-                    <a href="https://twitter.com/ThunderWeb1" target="_blank"><img src="{{ url('Assets/Imagens/logo-twitter.png') }}"   class="img-fluid img-social"></a>
-                    <a href="https://www.instagram.com/thunderweb_/" target="_blank"><img src="{{ url('Assets/Imagens/logo-insta.png') }}" class="img-fluid img-social"></a>
-                </div>
-            </div>
-            <!-- FIM Social -->
-
+            <!-- FIM Compras -->
         </body>
 
      <script href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
