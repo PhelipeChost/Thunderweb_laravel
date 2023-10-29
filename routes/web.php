@@ -30,7 +30,7 @@ Route::get('/chapter{number}', [App\Http\Controllers\ChaptersallController::clas
 Route::get('/Peter-Enigma-dos-Senhos', [App\Http\Controllers\PartnershipallController::class, 'Peter']);
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::any('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
