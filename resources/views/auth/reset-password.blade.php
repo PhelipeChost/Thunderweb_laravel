@@ -18,7 +18,6 @@
         <div class="container_inputs">
             <form method="POST" action="{{ route('password.store') }}">
                 @csrf
-
                 <!-- Password Reset Token -->
                 <input type="hidden" name="token" value="{{ $request->route('token') }}">
 
@@ -27,31 +26,26 @@
                     <x-text-input id="email" class="form-control control-one" type="email" name="email" :value="old('email', $request->email)" required autofocus autocomplete="username" />
                     <x-input-error :messages="$errors->get('email')" class="mt-2" />
                 </div>
-
                 <!-- Nova Senha -->
                 <div class="mt-4">
                     <x-text-input id="password" class="form-control input" type="password" name="password" placeholder="Senha" required autocomplete="new-password" />
                     <x-input-error :messages="$errors->get('password')" class="mt-2" />
                 </div>
-
                 <!-- Confirm Password -->
                 <div class="mt-4">
                     <x-text-input id="password_confirmation" class="form-control input" type="password" name="password_confirmation" placeholder="Confirmar Senha" required autocomplete="new-password" />
                     <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                 </div>
-
                 <center>
                     <x-primary-button class="avancar">
                         <img src="{{ url('Assets/Imagens/seta.png')}}" class="avancar_interno"  width="80">
                         <a class="criar-conta underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ __('Reset Password') }}">
                     </x-primary-button>
                 </center>
-
-                </div>
             </form>
         </div>
     </div>
 </body>
 </html>
-    
+
 
