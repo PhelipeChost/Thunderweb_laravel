@@ -37,7 +37,7 @@
                 <div class="mt-4">
 
                     <input id="senha" class="form-control" type="password" name="password" placeholder="Senha" required autocomplete="new-password">
-                    <button type="button" class="btn display" onclick="mostrarSenha()"><img src="{{ url('Assets/Imagens/olhinho-ohayo.png')}}" width="40"></button> 
+                    <button type="button" class="btn display" onclick="mostrarSenha()"><img src="{{ url('Assets/Imagens/olhinho-ohayo.png')}}" width="40"></button>
                     <x-input-error :messages="$errors->get('password')" class="mt-2 alert alert-danger" />
                 </div>
 
@@ -47,7 +47,7 @@
                     <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2 alert alert-danger" />
                 </div>
 
-                
+
 
                     <center>
                         <x-primary-button class="avancar">
@@ -70,5 +70,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </html>
-    
+
 

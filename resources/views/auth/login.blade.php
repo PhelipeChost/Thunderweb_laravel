@@ -12,7 +12,7 @@
     <script src="{{ url('Assets/js/Mostrarsenha.js')}}"></script>
 
    <title>Login</title>
-   
+
 </head>
 <body>
    <x-auth-session-status class="mb-4" :status="session('status')" />
@@ -31,7 +31,7 @@
                <!-- Password -->
                <div class="mt-4">
                    <x-text-input id="senha" class="form-control" type="password" name="password" placeholder="Senha" required autocomplete="current-password" />
-                   <button type="button" class="btn display" onclick="mostrarSenha()"><img src="{{ url('Assets/Imagens/olhinho-ohayo.png')}}" width="40"></button> 
+                   <button type="button" class="btn display" onclick="mostrarSenha()"><img src="{{ url('Assets/Imagens/olhinho-ohayo.png')}}" width="40"></button>
                    <x-input-error :messages="$errors->get('password')" class="mt-2 alert alert-warning" />
                </div>
 
@@ -55,7 +55,7 @@
                             <img src="{{ url('Assets/Imagens/seta.png')}}" class="avancar_interno"  width="80">
                             <a class="criar-conta underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ ('Log in') }}">
                         </x-primary-button>
-                    
+
                     <div class="flex items-center justify-end mt-3">
                         <a class="criar-conta underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('register') }}">
                             {{ __('Criar uma conta?') }}
@@ -69,7 +69,6 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
-</html>   
-   
+</html>
+
    <!-- Session Status -->
-   

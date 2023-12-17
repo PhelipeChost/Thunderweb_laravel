@@ -45,7 +45,7 @@
                                 @if (Route::has('login'))
                                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                                         @auth
-                                            <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Logout</a>
+                                            <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline continuar_nav_button">Clique aqui para continuar navegando</a>
                                         @else
                                             <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Logar</a>
 
@@ -64,10 +64,11 @@
                     </div>
                 </div>
             </nav>
-            <div class="alert alert-warning">
-                <img src="{{ url('Assets/Imagens/warning-icon.png')}}" width="20">
-                É necessário fazer uma autenticação para poder acessar os capitulos
-            </div>
+                <div class="alert alert-warning">
+                    <img src="{{ url('Assets/Imagens/warning-icon.png')}}" width="20">
+                    É necessário fazer uma autenticação para poder acessar os capitulos
+                </div>
+
             <!-- FIM Logout -->
             <main style="background-image: url('Assets/Imagens/45-3.png');
                                                 background-size: cover;">
@@ -93,7 +94,7 @@
 
                 </div>
 
-            <!-- FIM Social -->  
+            <!-- FIM Social -->
 
             </main>
         </body>
